@@ -1,0 +1,113 @@
+@font-face {
+    font-family: MyCustomFont;
+    src: url("Roboto-Black.eot") /* EOT file for IE */
+}
+@font-face {
+    font-family: MyCustomFont;
+    src: url("Roboto-Black.ttf") /* TTF file for CSS3 browsers */
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto:wght@100&display=swap');
+
+body {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.navbar-map-signs img {
+    position: absolute;
+    height: 23px;
+    width: 19px;
+    left: 245px;
+    top: 34px;
+    border-radius: 0px;
+}
+
+.navbar-text-verx {
+    font-family: MyCustomFont, Verdana, Arial, sans-serif;
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+}
+
+.navbar-text-v p {
+    position: absolute;
+    width: 56px;
+    height: 19px;
+    left: 270px;
+    top: 21px;
+}
+
+.navbar-text-e p {
+    position: absolute;
+    width: 101px;
+    height: 19px;
+    left: 1017px;
+    top: 21px;
+}
+
+.navbar-text-r p {
+    position: absolute;
+    width: 123px;
+    height: 19px;
+    left: 1138px;
+    top: 21px;
+}
+
+.navbar-text-x p {
+    position: absolute;
+    width: 73px;
+    height: 19px;
+    left: 1281px;
+    top: 21px;
+}
+
+.menu-navbar {
+    position: absolute;
+    margin-top: 30px;
+    width: 1600px;
+    height: 65px;
+    left: 0px;
+    top: 59px;
+    /* overflow-y: scroll; */
+    border: 1px solid rgba(125, 115, 115, 0.5);
+    backdrop-filter: blur(15px);
+}
+
+.menu-navbar-ima {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.menu-navbar-ima a {
+    border: 6px solid #06600F;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: rgba(10, 148, 24, 0.75);
+    text-decoration: none;
+    color: #ffffff;
+    position: absolute;
+    width: 210px;
+    height: 55px;
+    left: 233px;
+    top: 5px;
+    text-align: center;
+}
+
+.menu-navbar-ima-a p {
+    margin-top: 9px;
+}
+
+
